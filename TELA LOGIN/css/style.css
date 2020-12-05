@@ -1,0 +1,127 @@
+html
+{
+	height:  100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 98%;
+	background-color: #333;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.quadrado{
+	width: 500px;
+	height: 530px;
+	background-color: white;
+	border-radius: 28px;
+	margin: auto;
+
+	left:50%;
+	top:50%;
+	margin-left:-250px; /* Metade do valor da Largura */
+	margin-top:-285px; /* Metade da valor da Altura */
+	position:absolute;
+}
+
+.logoIF{
+	width: 70px;
+	margin: auto;
+	margin-top: 16px;
+}
+
+.nomeSistema h1{
+	margin-top: 0;
+	text-align: center;
+	color: #333;
+	font-size: 19px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.nomeSistema{
+	align-items: center;
+}
+.nomeSistema span{
+	margin-top: 0;
+	text-align: center;
+	color: #333;
+	margin-left: 25%;
+	font-weight: 700;
+	padding-bottom: 8px;
+	font-size: 12px;
+	border-bottom: 1px solid #CCC;
+}
+
+.nome{
+	margin-left: 64px;
+}
+.nome h3{
+	margin-top: 32px;
+	color:#333;
+	font-weight: 700;
+	font-size: 14px;
+}
+.nome input{
+	background-color: #E8E7E7;
+	border: none;
+	border-radius: 10px;
+	width: 350px;
+	height: 40px;
+	margin: auto;
+}
+
+.senha .nome h3{
+	margin-top: 16px;
+}
+
+
+.desenvolvedor{
+	position: absolute;
+	bottom: 10px;
+	left: 39%;
+	align-items: center;
+	color: #369831;
+	font-weight: 400;
+	font-size: 16px;
+
+}
+
+.btnAcessar{
+	margin: 16px auto;
+	cursor: pointer;
+	width: 300px;
+	height: 40px;
+	background: linear-gradient(271.08deg, #369831 0.14%, #117623 97.81%);
+	border-radius: 10px;
+}
+
+.btnAcessar h2{
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	margin:8px 8px 40px 0;
+}
+.btnAcessar .centro{
+	margin-left: 38%;
+	padding-top: 2px;
+}
+
+.esqueceu{
+	color: #369831;
+	font-size: 8px;
+	font-weight: 300;
+	margin-left: 350px;
+	margin-top: 32px;
+}
+
+.esqueceu:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
